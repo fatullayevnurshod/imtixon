@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 31rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 620px) {
+  .container {
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 900px;
+    text-align: center;
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,76 @@
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  ul {
+    margin: 20px 0;
+  }
+}
+
+ul {
+  li {
+    margin: 20px 0;
+  }
+  a {
+    color: #4c545c;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 166.667%;
+    letter-spacing: 0.135px;
+  }
+}
+
+.icon2 {
+  display: flex;
+  column-gap: 4rem;
+  margin: 30px 0 50px;
+  i {
+    font-size: 30px;
+  }
+}
+.fa-twitter:hover {
+  color: #26bba4;
+}
+
+.fa-facebook:hover {
+  color: #00adef;
+}
+ul {
+  a:hover {
+    color: #07b9ff;
+  }
+}
+
+@media (min-width: 620px) {
+  .logo {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .logo {
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .logo {
+    column-gap: 70px;
+    align-items: start;
+    text-align: start;
+    .img {
+      max-width: 10%;
+      margin-top: 30px;
+    }
+  }
+  .icon2 {
+    margin-top: 70px;
+  }
+}

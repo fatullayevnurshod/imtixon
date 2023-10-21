@@ -1,0 +1,108 @@
+body {
+  // width: 100vw;
+  // height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: start;
+  // align-items: center;
+  overflow-x: hidden;
+}
+.header {
+  max-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .fon {
+    width: 100vw;
+    height: 100%;
+    background-image: url(../imgs/photo_fon.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 12rem 0;
+  }
+}
+
+.hero_text {
+  h1 {
+    color: #4c545c;
+
+    text-align: center;
+    font-family: "Bai Jamjuree SemiBold", sans-serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    letter-spacing: -0.522px;
+  }
+  p {
+    color: #9eabb2;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 162.5%;
+    letter-spacing: 0.12px;
+    margin: 5px 0 48px;
+  }
+}
+
+.btn {
+  display: grid;
+  row-gap: 3.7rem;
+
+  button:nth-child(1) {
+    border-radius: 28px;
+    background: #26bba4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+      0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+
+    color: #fff;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 166.667%;
+    letter-spacing: 0.5px;
+    padding: 1.3rem 0;
+    border: none;
+  }
+
+  button:nth-child(2) {
+    color: #fff;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 166.667%;
+    letter-spacing: 0.5px;
+    padding: 1.3rem 0;
+    border: none;
+
+    border-radius: 28px;
+    background: #6174ff;
+
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+      0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  }
+}
+
+@media (min-width: 620px) {
+  .btn {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero_text {
+    h1 {
+      font-size: 4.6rem;
+    }
+    p {
+      max-width: 73rem;
+      font-size: 2rem;
+      margin: 16px 0 48px;
+    }
+  }
+}

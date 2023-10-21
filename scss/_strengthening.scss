@@ -1,0 +1,92 @@
+.strengthening {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17rem;
+}
+
+.strengthening_text {
+  h2 {
+    color: #4c545c;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+  }
+  p {
+    color: #9eabb2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 162.5%;
+    letter-spacing: 0.12px;
+    margin: 1.1rem 0 9rem;
+  }
+}
+
+.icon_text {
+  h3 {
+    color: #4c545c;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: -0.391px;
+    margin: 4rem 0 1.8rem;
+  }
+
+  p {
+    color: #9eabb2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 162.5%;
+    letter-spacing: 0.12px;
+  }
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.6rem;
+  margin-bottom: 13rem;
+}
+
+.firma_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5rem;
+  img {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 900px) {
+  .strengthening_text {
+    h2 {
+      font-size: 3.6rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  }
+  .icon {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .firma_logo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icon_text {
+    p {
+      max-width: 350px;
+    }
+  }
+}
